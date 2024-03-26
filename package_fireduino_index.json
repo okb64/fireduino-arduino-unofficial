@@ -1,0 +1,172 @@
+{
+  "packages": [
+    {
+      "maintainer": "Firefly Team",
+      "help": {
+        "online": "http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=140"
+      },
+      "websiteURL": "http://en.t-firefly.com/en/firesmart/fireduino/",
+      "platforms": [
+        {
+          "category": "Contributed",
+          "help": {
+            "online": "http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=140"
+          },
+          "url": "http://www.t-firefly.com/download/fireduino/fireduino_sdk-1.3.1.tar.gz",
+          "checksum": "SHA-256:ed0ae0d98ac3595b9cd08ee3552b68fcf32938541b1984b5b686d1d02380d274",
+          "version": "1.3.1",
+          "architecture": "arm",
+          "archiveFileName": "fireduino_sdk-1.3.1.tar.gz",
+          "boards": [
+            {
+              "name": "Fireduino"
+            }
+          ],
+          "size": "1340728",
+          "toolsDependencies": [
+            {
+              "packager": "Firefly",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "Firefly",
+              "version": "1.0.1",
+              "name": "fireduino_tools"
+            }
+          ],
+          "name": "Fireduino"
+        },
+        {
+          "category": "Contributed",
+          "help": {
+            "online": "http://bbs.t-firefly.com/forum.php?mod=forumdisplay&fid=140"
+          },
+          "url": "http://www.t-firefly.com/download/fireduino/fireduino_sdk-1.3.0.tar.gz",
+          "checksum": "SHA-256:063fcdfa6e4be40d134ef86489300a47ea50caec2de83c3d1628e2b49228e186",
+          "name": "Fireduino",
+          "version": "1.3.0",
+          "architecture": "arm",
+          "archiveFileName": "fireduino_sdk-1.3.0.tar.gz",
+          "size": "1337894",
+          "toolsDependencies": [
+            {
+              "packager": "Firefly",
+              "version": "4.8.3-2014q1",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "Firefly",
+              "version": "1.0.0",
+              "name": "fireduino_tools"
+            }
+          ],
+          "boards": [
+            {
+              "name": "Fireduino"
+            }
+          ]
+        }
+      ],
+      "tools": [
+        {
+          "version": "1.0.1",
+          "name": "fireduino_tools",
+          "systems": [
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/fireduino_tools_windows-1.0.1.tar.gz",
+              "checksum": "SHA-256:0c8c2b646d9f66b2a73e0a7ff5d1473b3ec9d85432e8d1027703dab19a712c71",
+              "host": "i686-mingw32",
+              "archiveFileName": "fireduino_tools_windows-1.0.1.tar.gz",
+              "size": "5199932"
+            },
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/fireduino_tools_mac-1.0.1.tar.gz",
+              "checksum": "SHA-256:ea3888ecc031e9f9fca5d2dc99c672c2a1411ff402b0949ea6ca745345558465",
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "fireduino_tools_mac-1.0.1.tar.gz",
+              "size": "9435635"
+            },
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/fireduino_tools_linux-1.0.1.tar.gz",
+              "checksum": "SHA-256:96be29504607201f10c6c1e9efdf3ff8aeb2f3b8f8105a5718d4efd7eab0f0ce",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "fireduino_tools_linux-1.0.1.tar.gz",
+              "size": "1679443"
+            },
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/fireduino_tools_linux-1.0.1.tar.gz",
+              "checksum": "SHA-256:96be29504607201f10c6c1e9efdf3ff8aeb2f3b8f8105a5718d4efd7eab0f0ce",
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "fireduino_tools_linux-1.0.1.tar.gz",
+              "size": "1679443"
+            }
+          ]
+        },
+        {
+          "version": "4.8.3-2014q1",
+          "name": "arm-none-eabi-gcc",
+          "systems": [
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+              "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+              "host": "i686-mingw32",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+              "size": "84537449"
+            },
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "size": "52518522"
+            },
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "size": "51395093"
+            },
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "size": "51029223"
+            }
+          ]
+        },
+        {
+          "version": "1.0.0",
+          "name": "fireduino_tools",
+          "systems": [
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/fireduino_tools_windows-1.0.0.tar.gz",
+              "checksum": "SHA-256:de703b1f5c7e1f72352c791bb787e1ba232669e9689fbe2f4adf30f61542f620",
+              "host": "i686-mingw32",
+              "archiveFileName": "fireduino_tools_windows-1.0.0.tar.gz",
+              "size": "5200397"
+            },
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/fireduino_tools_linux-1.0.0.tar.gz",
+              "checksum": "SHA-256:ccf694afd863cdc3010a260ce95d14c8c2700047190114de87fb2ebad5d16434",
+              "host": "x86_64-pc-linux-gnu",
+              "archiveFileName": "fireduino_tools_linux-1.0.0.tar.gz",
+              "size": "1679703"
+            },
+            {
+              "url": "http://www.t-firefly.com/download/fireduino/fireduino_tools_linux-1.0.0.tar.gz",
+              "checksum": "SHA-256:ccf694afd863cdc3010a260ce95d14c8c2700047190114de87fb2ebad5d16434",
+              "host": "i686-pc-linux-gnu",
+              "archiveFileName": "fireduino_tools_linux-1.0.0.tar.gz",
+              "size": "1679703"
+            }
+          ]
+        }
+      ],
+      "email": "service@t-firefly.com",
+      "name": "Firefly"
+    }
+  ]
+}
